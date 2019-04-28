@@ -4,7 +4,7 @@
                 <div class="header3-wrap">
                     <div class="header__logo">
                         <a href="/JavaWeb/index.jsp">
-                            <img src="/JavaWeb/assets/images/icon/logo-white.png" alt="CoolAdmin" />
+                            <img src="/JavaWeb/assets/images/icon/sis4.png" alt="SISMV" />
                         </a>
                     </div>
                     <div class="header__navbar">
@@ -15,10 +15,20 @@
                                     <span class="bot-line"></span>
                                 </a>
                             </li>
-                            <li>
+                            <li class="has-sub" >
                                 <a href="/JavaWeb/producao/producao.jsp">
-                                    <i class="fas fa-shopping-basket"></i>
+                                    <i class="fasfa-desktop"></i>
                                     <span class="bot-line"></span>PRODUÇÃO</a>
+                                    <ul class="header3-sub-list list-unstyled">
+                                    <li>
+                                        <a href="../producao/proDetranDf.jsp">DETRAN-DF</a>
+                                    </li>
+                                        <a href="../producao/incluiProDf.jsp">RODOVIAS</a>
+                                    </li>
+                                    <li>
+                                        <a href="forget-pass.html">PREFEITURAS</a>
+                                    </li>
+                                </ul>
                             </li>
                             <li>
                                 <a href="/JavaWeb/equipe/equipe.jsp">
@@ -29,6 +39,7 @@
                                 <a href="/JavaWeb/veiculo/veiculo.jsp">
                                     <i class="fas fa-copy"></i>
                                     <span class="bot-line"></span>VEÍCULOS</a>
+                                    
                             </li>
                             <li class="has-sub">
                                 <a href="/JavaWeb/relatorio/relatorio.jsp">
