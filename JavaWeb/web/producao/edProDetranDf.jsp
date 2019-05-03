@@ -3,14 +3,16 @@
 
 <section class="au-breadcrumb2"></section>
 <div class="container">
+    <div class="text-center">
     <h1>Produção</h1>
     <div class="row mt">
         <div class="col-lg-12">
             <h4><i class="fa fa-angle-right"></i>Alteração da produção</h4>
         </div>
     </div>
+    </div>
     <br>
-    <form>
+    <form action="../producao/proDetranDf.jsp" method="POST">
         <div class="form-row">
             <div class="form-group col-md-4">
                 <label for="localizacaoinicio">Localizão inicial</label>
@@ -86,7 +88,7 @@
             </div>
         </div> 
         
-        <input class="btn btn-info" type="submit" value="Alterar">
+        <input class="btn btn-info" type="submit" value="Alterar e salvar">
         <input class="btn btn-secondary" type="reset" value="Clean">
 </form>
 </div>

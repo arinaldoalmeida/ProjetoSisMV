@@ -3,18 +3,20 @@
 
 <section class="au-breadcrumb2"></section>
 <div class="container">
-    <h1>Produções</h1>
+    <div class="text-center">
+    <h1>Produção</h1>
     <div class="row mt">
         <div class="col-lg-12">
-            <h4><i class="fa fa-angle-right"></i>Incluir produção</h4>
+            <h4><i class="fa fa-angle-right"></i>Incluir dados</h4>
         </div>
     </div>
+    </div>
     <br>
-    <form>
+    <form action="../producao/proDetranDf.jsp" method="POST">
         <div class="form-row">
             <div class="form-group col-md-4">
                 <label for="localizacaoinicio">Localizão inicial</label>
-                <input type="text" class="form-control" id="localizacaoinicio" placeholder="Localização">
+                <input type="text" class="form-control" id="localizacaoinicio" placeholder="LAT: -15.964563  LONG: -48.623214">
             </div>
             <div class="form-group col-md-6">
                 <label for="cidade">Cidade</label>
@@ -31,8 +33,8 @@
                 </select>
             </div>
             <div class="form-group col-md-4">
-                <label for="quantidade">Quantidade de medida</label>
-                <input type="text" class="form-control" id="quantidade" placeholder="">
+                <label for="quantidade">Quantidade medida</label>
+                <input type="text" class="form-control" id="quantidade" placeholder="10236">
             </div>
             </div>
             <div class="form-row">
@@ -45,11 +47,11 @@
             </div>
             <div class="form-group col-md-4">
                 <label for="comprimentoLinear">Comprimento Linear</label>
-                <input type="text" class="form-control" id="comprimentoLinear" placeholder="">
+                <input type="text" class="form-control" id="comprimentoLinear" placeholder="Comprimento">
             </div>
             <div class="form-group col-md-4">
                 <label for="localizacaofinal"> Localização final</label>
-                <input type="text" class="form-control" id="localizacaofinal" placeholder="">
+                <input type="text" class="form-control" id="localizacaofinal" placeholder="Localização">
             </div>
                 <div class="form-group col-md-6">
                 <label for="enderecoInicial">Endereço inicial</label>
@@ -59,6 +61,7 @@
                 <label for="local">Local</label>
                 <select id="local" class="form-control">
                     <option selected>Selecione</option>
+                    <option>...</option>
                     <option>...</option>
                 </select>
             </div>
@@ -74,21 +77,20 @@
                 <select id="cor" class="form-control">
                     <option selected>Selecione</option>
                     <option>...</option>
+                    <option>...</option>
                 </select>
             </div>
                 <div class="form-group col-md-2">
                 <label for="largura">Largura(cm)</label>
-                <input type="text" class="form-control" id="largura" placeholder="">
+                <input type="text" class="form-control" id="largura" placeholder="Largura">
             </div>
                 <div class="form-group col-md-6">
                 <label for="enderecoFinal">Endereço final</label>
-                <input type="text" class="form-control" id="enderecoFinal" placeholder="">
+                <input type="text" class="form-control" id="enderecoFinal" placeholder=" Endereço">
             </div>
         </div> 
-        
-        <input class="btn btn-info" type="submit" value="Salvar">
+        <input href="proDetranDf.jsp" class="btn btn-info" type="submit" value="Salvar"> 
         <input class="btn btn-secondary" type="reset" value="Clean">
 </form>
 </div>
 <jsp:include page="../layout/footer.jsp" />
-

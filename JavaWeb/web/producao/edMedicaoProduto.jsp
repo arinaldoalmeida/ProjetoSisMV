@@ -10,7 +10,7 @@
         </div>
     </div>
     <br>
-    <form>
+    <form action="../producao/produtos.jsp" method="POST">
         <div class="form-row">
             <div class="form-group col-md-4">
                 <label for="temperatura">Temperatura(C°)</label>
@@ -47,7 +47,7 @@
                 <input type="text" class="form-control" id="enderencia" placeholder="Situação">
             </div>
             </div>
-        <input class="btn btn-info" type="submit" value="Alerar">
+        <input class="btn btn-info" type="submit" value="Alerar e salvar">
         <input class="btn btn-secondary" type="reset" value="Clean">
     </form>
 </div>

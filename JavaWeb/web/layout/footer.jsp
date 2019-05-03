@@ -4,7 +4,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="copyright">
-                                <p>Copyright © 2018 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
+                                <p>SISMV © 2019 - Todos os direitos reservado<a href="https://colorlib.com">MAGFoftware</a>.</p>
                             </div>
                         </div>
                     </div>
@@ -38,6 +38,7 @@
 
     <!-- Main JS-->
     <script src="/JavaWeb/assets/js/main.js"></script>
+    <script src="JavaWeb/assets/js/all.js" type="text/javascript"></script>
 
 </body>
 

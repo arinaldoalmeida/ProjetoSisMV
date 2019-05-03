@@ -10,7 +10,7 @@
         </div>
     </div>
     <br>
-    <form>
+    <form action="../producao/produtos.jsp" method="POST">
         <div class="form-row">
             <div class="form-group col-md-4">
                 <label for="temperatura">Temperatura(C°)</label>

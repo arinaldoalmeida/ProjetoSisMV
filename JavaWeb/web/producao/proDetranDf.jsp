@@ -2,10 +2,11 @@
 <jsp:include page="../layout/menu.jsp" />
 <section class="au-breadcrumb2"></section>
 <div class="container">
-    <h1>Produção DETRAN-DF</h1>
+    <h1>Produção-DETRAN-DF</h1>
     <div class="col-lg-12">
         <h4><i class="fa fa-angle-right"></i>Dados da produção</h4>
     </div>
+
     <br>
     <br>
     <div class="table-data__tool">
@@ -27,9 +28,9 @@
                 <div class="dropDownSelect2"></div>
             </div>
             <a href="incluiProDf.jsp"class="au-btn au-btn-icon au-btn--green au-btn--small">
-                                            <i class="zmdi zmdi-plus"></i>Produçao</a>
+                <i class="zmdi zmdi-plus"></i>Produçao</a>
         </div>
-        
+
     </div>
     <div class="table-responsive table--no-card m-b-40">
         <table class="table table-borderless table-striped table-earning">
@@ -47,13 +48,46 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Dados da table</td>
-                    <td>Dados da table</td>
-                    <td>Dados da table</td>
-                    <td>Dados da table</td>
-                    <td>Dados da table</td>
-                    <td>Dados da table</td>
-                    <td>Dados da table</td>
+                    <td>Acrílico Automático</td>
+                    <td>Bastaão 3x6</td>
+                    <td>100</td>
+                    <td>0.10 u</td>
+                    <td>3.00 m</td>
+                    <td>01/01/2019</td>
+                    <td>Concluido</td>
+                    
+                    <td>
+                        <div>
+                            <a href="edProDetranDf.jsp" class="btn btn-info"><i class="zmdi zmdi-edit"></i> Editar</a>
+                            <a href="#"  onclick= "return confirm('Deseja excluir?')" class="btn btn-danger"><i class="zmdi zmdi-delete"></i> Excluir</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Acrílico Automático</td>
+                    <td>Bastaão 3x6</td>
+                    <td>100</td>
+                    <td>0.10 u</td>
+                    <td>3.00 m</td>
+                    <td>01/01/2019</td>
+                    <td>Concluido</td>
+                    
+                    <td>
+                        <div>
+                            <a href="edProDetranDf.jsp" class="btn btn-info"><i class="zmdi zmdi-edit"></i> Editar</a>
+                            <a href="#"  onclick= "return confirm('Deseja excluir?')" class="btn btn-danger"><i class="zmdi zmdi-delete"></i> Excluir</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Acrílico Automático</td>
+                    <td>Bastaão 3x6</td>
+                    <td>100</td>
+                    <td>0.10 u</td>
+                    <td>3.00 m</td>
+                    <td>01/01/2019</td>
+                    <td>Concluido</td>
+                    
                     <td>
                         <div>
                             <a href="edProDetranDf.jsp" class="btn btn-info"><i class="zmdi zmdi-edit"></i> Editar</a>

@@ -482,7 +482,7 @@ section {
 }
 
 .au-btn--green:hover {
-    background: #e74c3c;
+    background: #EE5A24;
 }
 
 .au-btn-plus {
@@ -2690,7 +2690,7 @@ section {
 }
 
 .header__navbar ul li a:hover {
-    color: #4272d7;
+    color: #EE5A24;
 }
 
 .header__navbar ul li a:hover .bot-line {
@@ -2784,14 +2784,14 @@ section {
 
 .header__navbar .header3-sub-list li a {
     font-size: 15px;
-    color: #777777;
-    padding: 10px 22px;
+    color: #FFC312;
+    padding: 10px 20px;
     border: none;
     border-bottom: 1px solid #e1e6eb;
 }
 
 .header__navbar .header3-sub-list li a:hover {
-    color: #4272d7;
+    color: #EE5A24;
     background: #f7f7f7;
 }
 

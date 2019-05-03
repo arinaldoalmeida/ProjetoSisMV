@@ -26,10 +26,9 @@
                 </select>
                 <div class="dropDownSelect2"></div>
             </div>
-            <a href="incluiProDf.jsp"class="au-btn au-btn-icon au-btn--green au-btn--small">
+            <a href="medicaoProduto.jsp"class="au-btn au-btn-icon au-btn--green au-btn--small">
                                             <i class="zmdi zmdi-plus"></i>Produtos</a>
         </div>
-        
     </div>
     <div class="table-responsive table--no-card m-b-40">
         <table class="table table-borderless table-striped table-earning">
@@ -46,12 +45,40 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Dados da table</td>
-                    <td>Dados da table</td>
-                    <td>Dados da table</td>
-                    <td>Dados da table</td>
-                    <td>Dados da table</td>
-                    <td>Dados da table</td>
+                    <td>10 ºC</td>
+                    <td>40 %</td>
+                    <td>500 cm</td>
+                    <td>4 mm</td>
+                    <td>12 g/m²</td>
+                    <td>Ok</td>
+                    <td>
+                        <div>
+                            <a href="edMedicaoProduto.jsp" class="btn btn-info"><i class="zmdi zmdi-edit"></i> Editar</a>
+                            <a href="#"  onclick= "return confirm('Deseja excluir?')" class="btn btn-danger"><i class="zmdi zmdi-delete"></i> Excluir</a>
+                        </div>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>15 ºC</td>
+                    <td>50 %</td>
+                    <td>600 cm</td>
+                    <td>6 mm</td>
+                    <td>22 g/m²</td>
+                    <td>Ok</td>
+                    <td>
+                        <div>
+                            <a href="edMedicaoProduto.jsp" class="btn btn-info"><i class="zmdi zmdi-edit"></i> Editar</a>
+                            <a href="#"  onclick= "return confirm('Deseja excluir?')" class="btn btn-danger"><i class="zmdi zmdi-delete"></i> Excluir</a>
+                        </div>
+                    </td>
+                </tr>
+                 <tr>
+                   <td>15 ºC</td>
+                    <td>50 %</td>
+                    <td>600 cm</td>
+                    <td>6 mm</td>
+                    <td>14 g/m²</td>
+                    <td>Ok</td>
                     <td>
                         <div>
                             <a href="edMedicaoProduto.jsp" class="btn btn-info"><i class="zmdi zmdi-edit"></i> Editar</a>

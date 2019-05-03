@@ -10,12 +10,13 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Dashboard 3</title>
+    <title>SISMV</title>
 
     <!-- Fontfaces CSS-->
     <link href="/JavaWeb/assets/css/font-face.css" rel="stylesheet" media="all">
     <link href="/JavaWeb/assets/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
     <link href="/JavaWeb/assets/vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="../assets/vendor/font-awesome-5/css/all.css" rel="stylesheet" type="text/css" media="all">
     <link href="/JavaWeb/assets/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
 
     <!-- Bootstrap CSS-->
